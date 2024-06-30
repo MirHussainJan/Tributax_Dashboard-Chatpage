@@ -1,0 +1,78 @@
+.bg-voilet{
+    background-color: #2A326E;
+    margin-bottom: -50px;
+}
+
+.sie{
+    padding: 0 !important;
+    height: 100vh;
+    margin: 0 !important;
+}
+
+.row{
+    margin: 0 !important;
+}
+
+.col-lg-10{
+    padding: 0 !important;
+}
+
+hr{
+    color: rgb(203, 203, 203) !important;
+}
+
+.fs-7{
+    font-size: 0.8rem;
+}
+
+.menu-icon{
+    display: none;
+}
+
+@media only screen and (max-width:900px){
+    canvas{
+        width: 250px !important;
+        height: 250px !important;
+    }
+}
+
+@media only screen and (max-width:991px){
+    .sie{
+        background-color: white;
+        position: absolute !important;
+        top: -100%;
+        z-index: 1040;
+        transition: all 0.5s;
+    }
+    .menu-icon{
+        display: block;
+        z-index: 1060;
+        color: black;
+        transition: all 0.5s;
+    }
+}
+
+@media only screen and (max-width:450px){
+    .col-lg-10{
+        width: 100vw !important;
+    }
+    .col-lg-2{
+        width: 100vw !important;
+    }
+    p{
+        font-size: 10px !important;
+    }
+    table{
+        font-size: 1rem !important;
+    }
+    .border-top{
+        font-size: 8px;
+    }
+    .special{
+        display: none;
+    }
+    canvas{
+        width: 150px !important;
+        height: 150px !important;
+    }
+}
